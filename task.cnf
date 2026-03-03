@@ -1,11 +1,3 @@
-#
-# The MySQL database client configuration file
-#
-# Ref to https://dev.mysql.com/doc/refman/en/mysql-command-options.html
-
-[mysql]
-root@DESKTOP-8JD2VI9:/etc/mysql/mysql.conf.d# cat mysqld.cnf
-#
 # The MySQL database server configuration file.
 #
 # One can use all long options that the program supports.
@@ -83,3 +75,4 @@ slow_query_log_file     = /data/mysql-slow.log
 max_binlog_size   = 100M
 # binlog_do_db          = include_database_name
 # binlog_ignore_db      = include_database_name
+
